@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# WebMechanic
+Ruby Web App for the Organization
+>>>>>>> 05e420a39e8c78e62ba135c1fb0fe25a9d817212
