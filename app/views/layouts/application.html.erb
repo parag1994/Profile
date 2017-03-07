@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>WebMechanic</title>
-    <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= render 'layouts/rails_defaults'%>
+    <%= render 'layouts/import_assets'%>
+    <%= render 'layouts/shim'%>
   </head>
 
   <body>
+    <%= render 'layouts/header' %>%>
     <%= yield %>
+    <%= render 'layouts/footer' %>%>
+    <%= render 'layouts/plugin_js_imports'%>
   </body>
 </html>
